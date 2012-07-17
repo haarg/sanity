@@ -226,8 +226,8 @@ x_Dist_Zilla:
       name: ConfirmRelease
       version: 4.300020
     -
-      class: Dist::Zilla::Plugin::UploadToCPAN
-      name: UploadToCPAN
+      class: Dist::Zilla::Plugin::FakeRelease
+      name: FakeRelease
       version: 4.300020
     -
       class: Dist::Zilla::Plugin::InstallRelease
