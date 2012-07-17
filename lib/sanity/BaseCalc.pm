@@ -1,7 +1,7 @@
 package  # hide from PAUSE
    sanity::BaseCalc;
 
-our $VERSION = '1.0'; # VERSION
+our $VERSION = '0.91'; # VERSION
 # ABSTRACT: DO NOT USE!
 
 use strict;
@@ -196,7 +196,7 @@ sanity::BaseCalc - DO NOT USE!
 
 =head1 VERSION
 
-version 1.0
+version 0.91
 
 =head1 DESCRIPTION
 

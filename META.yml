@@ -44,7 +44,10 @@ prereqs:
   test:
     requires:
       Test::More: 0.88
-provides: {}
+provides:
+  sanity:
+    file: lib/sanity.pm
+    version: 0.91
 release_status: stable
 resources:
   bugtracker:
@@ -55,7 +58,7 @@ resources:
     url: git://github.com/SineSwiper/sanity.git
     web: https://github.com/SineSwiper/sanity
   x_irc: irc://irc.perl.org/#sanity
-version: 1.0
+version: 0.91
 x_Dist_Zilla:
   plugins:
     -
@@ -65,10 +68,6 @@ x_Dist_Zilla:
     -
       class: Dist::Zilla::Plugin::Git::Init
       name: Git::Init
-      version: 1.121820
-    -
-      class: Dist::Zilla::Plugin::Git::NextVersion
-      name: Git::NextVersion
       version: 1.121820
     -
       class: Dist::Zilla::Plugin::Git::GatherDir
