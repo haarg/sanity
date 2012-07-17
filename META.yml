@@ -118,6 +118,10 @@ x_Dist_Zilla:
       name: Test::Compile
       version: 1.112820
     -
+      class: Dist::Zilla::Plugin::RunExtraTests
+      name: RunExtraTests
+      version: 0.007
+    -
       class: Dist::Zilla::Plugin::PodSyntaxTests
       name: PodSyntaxTests
       version: 4.300020
@@ -141,14 +145,6 @@ x_Dist_Zilla:
       class: Dist::Zilla::Plugin::ReportVersions::Tiny
       name: ReportVersions::Tiny
       version: 1.04
-    -
-      class: Dist::Zilla::Plugin::Test::CheckManifest
-      name: Test::CheckManifest
-      version: 0.03
-    -
-      class: Dist::Zilla::Plugin::RunExtraTests
-      name: RunExtraTests
-      version: 0.007
     -
       class: Dist::Zilla::Plugin::AutoPrereqs
       name: AutoPrereqs
