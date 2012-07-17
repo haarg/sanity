@@ -158,9 +158,9 @@
             "version" : "3.101641"
          },
          {
-            "class" : "Dist::Zilla::Plugin::ExtraTests",
-            "name" : "ExtraTests",
-            "version" : "4.300020"
+            "class" : "Dist::Zilla::Plugin::RunExtraTests",
+            "name" : "RunExtraTests",
+            "version" : "0.007"
          },
          {
             "class" : "Dist::Zilla::Plugin::NoTabsTests",

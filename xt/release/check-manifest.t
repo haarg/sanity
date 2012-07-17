@@ -1,3 +1,4 @@
+#!perl -T
 
 BEGIN {
   unless ($ENV{RELEASE_TESTING}) {
@@ -6,11 +7,10 @@ BEGIN {
   }
 }
 
-use strict;
-use warnings;
 use Test::More;
 
-eval 'use Test::NoTabs';
-plan skip_all => 'Test::NoTabs required' if $@;
+eval "use Test::CheckManifest 1.24";
+plan skip_all => "Test::CheckManifest 1.24 required for testing MANIFEST"
+  if $@;
 
-all_perl_files_ok();
+ok_manifest();
