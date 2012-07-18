@@ -150,6 +150,10 @@ x_Dist_Zilla:
       name: ReportVersions::Tiny
       version: 1.05
     -
+      class: Dist::Zilla::Plugin::Test::CheckManifest
+      name: Test::CheckManifest
+      version: 0.03
+    -
       class: Dist::Zilla::Plugin::AutoPrereqs
       name: AutoPrereqs
       version: 4.300020
@@ -206,6 +210,10 @@ x_Dist_Zilla:
       name: Git::CheckFor::CorrectBranch
       version: 0.004
     -
+      class: Dist::Zilla::Plugin::Git::CommitBuild
+      name: Git::CommitBuild
+      version: 1.121820
+    -
       class: Dist::Zilla::Plugin::Git::Check
       name: '@Git/Check'
       version: 1.121820
@@ -220,10 +228,6 @@ x_Dist_Zilla:
     -
       class: Dist::Zilla::Plugin::Git::Push
       name: '@Git/Push'
-      version: 1.121820
-    -
-      class: Dist::Zilla::Plugin::Git::CommitBuild
-      name: Git::CommitBuild
       version: 1.121820
     -
       class: Dist::Zilla::Plugin::TestRelease
