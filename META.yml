@@ -47,7 +47,7 @@ prereqs:
 provides:
   sanity:
     file: lib/sanity.pm
-    version: 0.92
+    version: 0.93
 release_status: stable
 resources:
   bugtracker:
@@ -58,7 +58,7 @@ resources:
     url: git://github.com/SineSwiper/sanity.git
     web: https://github.com/SineSwiper/sanity
   x_irc: irc://irc.perl.org/#sanity
-version: 0.92
+version: 0.93
 x_Dist_Zilla:
   plugins:
     -

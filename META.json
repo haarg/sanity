@@ -58,7 +58,7 @@
    "provides" : {
       "sanity" : {
          "file" : "lib/sanity.pm",
-         "version" : "0.92"
+         "version" : "0.93"
       }
    },
    "release_status" : "stable",
@@ -74,7 +74,7 @@
       },
       "x_irc" : "irc://irc.perl.org/#sanity"
    },
-   "version" : "0.92",
+   "version" : "0.93",
    "x_Dist_Zilla" : {
       "plugins" : [
          {
