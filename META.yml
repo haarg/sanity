@@ -203,11 +203,7 @@ x_Dist_Zilla:
       version: ~
     -
       class: Dist::Zilla::Plugin::Git::CheckFor::CorrectBranch
-      name: '@Git::CheckFor/Git::CheckFor::CorrectBranch'
-      version: 0.004
-    -
-      class: Dist::Zilla::Plugin::Git::CheckFor::Fixups
-      name: '@Git::CheckFor/Git::CheckFor::Fixups'
+      name: Git::CheckFor::CorrectBranch
       version: 0.004
     -
       class: Dist::Zilla::Plugin::Git::Check
