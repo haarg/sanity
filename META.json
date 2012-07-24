@@ -34,6 +34,7 @@
             "indirect" : "0",
             "multidimensional" : "0",
             "namespace::autoclean" : "0",
+            "namespace::clean" : "0",
             "namespace::functions" : "0",
             "perl5i" : "0",
             "subs::auto" : "0",
