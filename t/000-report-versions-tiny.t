@@ -62,7 +62,6 @@ eval { $v .= pmver('criticism','any version') };
 eval { $v .= pmver('indirect','any version') };
 eval { $v .= pmver('multidimensional','any version') };
 eval { $v .= pmver('namespace::autoclean','any version') };
-eval { $v .= pmver('namespace::clean','any version') };
 eval { $v .= pmver('namespace::functions','any version') };
 eval { $v .= pmver('namespace::sweep','0.004') };
 eval { $v .= pmver('perl5i','any version') };

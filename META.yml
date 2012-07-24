@@ -29,7 +29,6 @@ prereqs:
       indirect: 0
       multidimensional: 0
       namespace::autoclean: 0
-      namespace::clean: 0
       namespace::functions: 0
       perl5i: 0
       subs::auto: 0
@@ -82,6 +81,10 @@ x_Dist_Zilla:
       name: OurPkgVersion
       version: 0.004000
     -
+      class: Dist::Zilla::Plugin::PodWeaver
+      name: PodWeaver
+      version: 3.101641
+    -
       class: Dist::Zilla::Plugin::PruneCruft
       name: PruneCruft
       version: 4.300020
@@ -125,10 +128,6 @@ x_Dist_Zilla:
       class: Dist::Zilla::Plugin::PodSyntaxTests
       name: PodSyntaxTests
       version: 4.300020
-    -
-      class: Dist::Zilla::Plugin::PodWeaver
-      name: PodWeaver
-      version: 3.101641
     -
       class: Dist::Zilla::Plugin::RunExtraTests
       name: RunExtraTests
