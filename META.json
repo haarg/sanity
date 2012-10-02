@@ -197,11 +197,6 @@
             "version" : "2.000003"
          },
          {
-            "class" : "Dist::Zilla::Plugin::Test::Synopsis",
-            "name" : "@Filter/Test::Synopsis",
-            "version" : "2.000002"
-         },
-         {
             "class" : "Dist::Zilla::Plugin::Test::MinimumVersion",
             "name" : "@Filter/Test::MinimumVersion",
             "version" : "2.000002"
@@ -220,11 +215,6 @@
             "class" : "Dist::Zilla::Plugin::Test::UseAllModules",
             "name" : "@Filter/Test::UseAllModules",
             "version" : "0.002"
-         },
-         {
-            "class" : "Dist::Zilla::Plugin::Test::Version",
-            "name" : "@Filter/Test::Version",
-            "version" : "0.002004"
          },
          {
             "class" : "Dist::Zilla::Plugin::ReportVersions::Tiny",
