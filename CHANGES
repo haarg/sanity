@@ -1,6 +1,15 @@
 Revision History for sanity
 ===========================
 
+v0.94 2012-10-02
+----------------
+
+commit 4fbe24b1e601ce180606b65bbb6ea774075072b7
+Author: Brendan Byrd <Perl@ResonatorSoft.org>
+Date:   Tue Oct 2 14:07:40 2012 -0400
+
+    Third strike for namespace::sweep
+
 v0.93 2012-07-24
 ----------------
 
